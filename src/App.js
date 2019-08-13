@@ -1,12 +1,11 @@
 import React from "react";
-import CounterContainer from "./containers/CounterContainer";
-
 import "./App.css";
+import Visable from "./components/Visable";
 
 function App() {
   return (
     <div className="App">
-      <CounterContainer />
+      <Visable />
     </div>
   );
 }
